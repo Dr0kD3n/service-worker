@@ -19,7 +19,7 @@ document.getElementsByClassName("form")[0].addEventListener("submit",(e)=>{
 if("serviceWorker" in navigator){
 	window.addEventListener("load", () => {
 		navigator.serviceWorker	
-		.register('serviceWorker.js')
+		.register('./serviceWorker.js')
 		.then(reg => console.log("registered"))
 		.catch(e => console.log(e))
 	})

@@ -1,12 +1,10 @@
-body,html
-{
+body,html{
 	font-family:tahoma;
 	line-height:30px;
 	padding:0px;
 	margin:0px;
 }
-.header
-{
+.header{
 	font-size:26px;
 	margin:0 auto;
 	text-align:center;
@@ -17,33 +15,28 @@ body,html
 	line-height:50px;
 	border-bottom:1px solid #9F6905;
 }
-.container
-{
+.container{
 	width:450px;
 	cursor:default;
 	margin:20px auto;
-	max-height:350px;
 	overflow-y:scroll;
 }
-.container::-webkit-scrollbar 
-{
+.container::-webkit-scrollbar{
 	width: 3px;
 	max-width: 3px;
 	height: auto;
 	max-height: 8px;
 }
-.container::-webkit-scrollbar-thumb 
-{
+.container::-webkit-scrollbar-thumb{
 	background: #9F6905;
 	border-radius: 5px;
 	max-width: 3px;
 }
-.container::-webkit-scrollbar-track {
+.container::-webkit-scrollbar-track{
 	background: #f0f0f0;
 	border-radius:5px;
 }
-.Area
-{
+.Area{
 	margin:0 auto;
 	width:400px;
 	background-color:rgba(240, 240, 240, 0.2);
@@ -52,24 +45,20 @@ body,html
 	border-radius:5px;
 	margin-bottom:10px;
 }
-.L
-{
+.L{
 	float:left;
 }
-img
-{
+img{
 	width:50px;
 	height:50px;
 	border-radius:50%;
 	border:2px solid #f0f0ff;
 	padding:5px;    
 }
-.R
-{
+.R{
 	float:right;
 }
-.text
-{
+.text{
 	color: #a4a4a4;
 	font-family: tahoma;
 	font-size: 13px;
@@ -82,8 +71,7 @@ img
 	border-radius:5px;
 	padding:5px;  
 }
-.Area input[type="text"]
-{
+.Area input[type="text"]{
 	font-size:12px;
 	width:90%;
 	max-width:90%;
@@ -98,8 +86,7 @@ img
 	border:1px solid transparent;
 	resize:none;
 }
-.Area input[type="submit"]
-{
+.Area input[type="submit"]{
 	font-size:12px;
 	width: 100%;
 	padding: 5% 0% 28px;
@@ -112,11 +99,7 @@ img
 	border:1px solid transparent;
 	resize:none;
 }
-
-
-
-.Area input:focus
-{
+.Area input:focus{
 	color:#333;
 	border:1px solid #ccc;
 	-webkit-transition: all 1.5s;
@@ -124,8 +107,7 @@ img
 	transition: all 1.5s;
 	background-color:#fff;
 }
-.R .tooltip
-{
+.R .tooltip{
 	font-size:10px;
 	position:absolute;
 	background-color:#fff;
@@ -137,8 +119,7 @@ img
 	display:none;
 	color:#545454;
 }
-.L .tooltip
-{
+.L .tooltip{
 	font-size:10px;
 	position:absolute;
 	background-color:#fff;
@@ -150,16 +131,10 @@ img
 	display:none;  
 	color:#545454;
 }
-
-
-a
-{
+a{
 	text-decoration:none;
 }
-
-
-.Area input[type=button]
-{
+.Area input[type=button]{
 	font-size:12px;
 	padding:5px;
 	border-radius:5px;
@@ -170,8 +145,7 @@ a
 	border:1px solid transparent;
 	float:left;
 }
-.Area input[type=button]:hover
-{
+.Area input[type=button]:hover{
 	color:#fff;
 	border:1px solid #ccc;
 	-webkit-transition: all 1.5s;
@@ -179,8 +153,7 @@ a
 	transition: all 1.5s;
 	background-color:#9F6905;
 } 
-.validation
-{
+.validation{
 	float:left;
 	background-color:#ccc;
 	border-radius:5px;
@@ -191,8 +164,7 @@ a
 	margin-left:5px;
 	display:none;
 }
-br
-{
+br{
 	clear:both;
 	height:20px;
 }
